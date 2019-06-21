@@ -9,60 +9,14 @@ class Order extends Component {
         <h1>Últimos pedidos</h1>
         <OrderList>
           <header>
-            <h1>
-              Pedido
-              {' '}
-              <span>#3</span>
-              {' '}
-- Diego Schell Fernandes
-            </h1>
+            <h1>Pedido <b>#2</b> - Diego Schell Fernandes</h1>
             <h2>há 2 segundos</h2>
             <span>R$ 42,00</span>
           </header>
           <ProductsList>
             <li>
               <img
-                src="https://pedacodapizza.com/wp-content/uploads/2017/03/icone-pizza-3-sabores-80x80.png"
-                alt="logo"
-              />
-              <div>
-                <h1>Pizza Calabresa</h1>
-                <h2>Tamanho: Média</h2>
-              </div>
-            </li>
-            <li>
-              <img
-                src="https://pedacodapizza.com/wp-content/uploads/2017/03/icone-pizza-3-sabores-80x80.png"
-                alt="logo"
-              />
-              <div>
-                <h1>Pizza Calabresa</h1>
-                <h2>Tamanho: Média</h2>
-              </div>
-            </li>
-            <li>
-              <img
-                src="https://pedacodapizza.com/wp-content/uploads/2017/03/icone-pizza-3-sabores-80x80.png"
-                alt="logo"
-              />
-              <div>
-                <h1>Pizza Calabresa</h1>
-                <h2>Tamanho: Média</h2>
-              </div>
-            </li>
-            <li>
-              <img
-                src="https://pedacodapizza.com/wp-content/uploads/2017/03/icone-pizza-3-sabores-80x80.png"
-                alt="logo"
-              />
-              <div>
-                <h1>Pizza Calabresa</h1>
-                <h2>Tamanho: Média</h2>
-              </div>
-            </li>
-            <li>
-              <img
-                src="https://pedacodapizza.com/wp-content/uploads/2017/03/icone-pizza-3-sabores-80x80.png"
+                src="http://galeriadospaes.com.br/wp-content/uploads/2017/11/foto_do_produto_139.jpg"
                 alt="logo"
               />
               <div>
@@ -72,9 +26,29 @@ class Order extends Component {
             </li>
           </ProductsList>
           <p>
-            <span>Observações: </span>
-            {' '}
-Favor remover o tomate da pizza.
+            <b>Observações:</b> Favor remover o tomate da pizza.
+          </p>
+        </OrderList>
+        <OrderList>
+          <header>
+            <h1>Pedido <b>#1</b> - Diego Schell Fernandes</h1>
+            <h2>há 2 segundos</h2>
+            <span>R$ 36,00</span>
+          </header>
+          <ProductsList>
+            <li>
+              <img
+                src="https://media-cdn.tripadvisor.com/media/photo-s/0a/45/dc/51/pizza-portuguesa.jpg"
+                alt="logo"
+              />
+              <div>
+                <h1>Pizza Calabresa</h1>
+                <h2>Tamanho: Média</h2>
+              </div>
+            </li>
+          </ProductsList>
+          <p>
+            <b>Observações:</b> Favor remover o tomate da pizza.
           </p>
         </OrderList>
       </Container>

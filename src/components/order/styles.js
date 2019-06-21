@@ -15,6 +15,7 @@ export const OrderList = styled.article`
   border: 0;
   box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
+  border-radius: 5px;
   padding: 20px;
   header {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -24,26 +25,21 @@ export const OrderList = styled.article`
       font-size: 18px;
       font-weight: normal;
       color: #0b2031;
-      span {
-        font-weight: bold;
-      }
     }
     > h2 {
       font-size: 11px;
       color: #706e7b;
+
+      font-weight: normal;
     }
     > span {
       font-size: 16px;
       font-weight: bold;
     }
   }
-
   > p {
     margin-top: 18px;
     font-size: 14px;
-    > span {
-      font-weight: bold;
-    }
   }
 `;
 
@@ -51,17 +47,15 @@ export const ProductsList = styled.ul`
   width: 100%;
   list-style: none;
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
-
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding-bottom: 15px;
   li {
-    width: 200px;
+    width: 216px;
     display: flex;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    padding: 8px;
+    padding: 15px;
     margin-top: 15px;
     &:first-child {
       margin-left: 0;
@@ -73,6 +67,7 @@ export const ProductsList = styled.ul`
     img {
       width: 61px;
       height: 61px;
+      border-radius: 5px;
     }
     div {
       display: flex;
@@ -83,6 +78,7 @@ export const ProductsList = styled.ul`
       > h1 {
         font-size: 13px;
         margin-top: 8px;
+        font-weight: normal;
       }
       > h2 {
         font-size: 11px;
