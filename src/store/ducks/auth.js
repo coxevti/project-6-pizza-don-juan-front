@@ -16,7 +16,7 @@ export default Creators;
 export const INITIAL_STATE = Immutable({
   authenticatedUser: !!localStorage.getItem('@pizzariaDonJuan:token'),
   token: localStorage.getItem('@pizzariaDonJuan:token') || null,
-  user: localStorage.getItem('@pizzariaDonJuan:user') || null,
+  user: JSON.parse(localStorage.getItem('@pizzariaDonJuan:user')) || null,
 });
 
 /* Reducers */

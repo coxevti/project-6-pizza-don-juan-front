@@ -1,5 +1,15 @@
 import React from 'react';
 
-const Main = () => <h1>Main</h1>;
+import Header from '~/components/header';
+import Order from '~/components/order';
+
+function Main() {
+  return (
+    <>
+      <Header />
+      <Order />
+    </>
+  );
+}
 
 export default Main;
