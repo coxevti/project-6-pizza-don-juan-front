@@ -46,9 +46,13 @@ export const MainUser = styled.div`
     font-weight: bold;
     text-transform: capitalize;
   }
-  a {
+  button {
     color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
+    background: none;
+    border: 0;
     font-size: 14px;
+    &:hover{
+      color: rgba(255, 255, 255, 0.9);
+    }
   }
 `;

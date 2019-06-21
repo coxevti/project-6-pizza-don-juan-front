@@ -11,7 +11,7 @@ const App = () => (
   <Provider store={store}>
     <>
       <Routes />
-      <ReduxToastr preventDuplicates position="top-center" progressBar />
+      <ReduxToastr position="top-center" progressBar closeOnToastrClick />
       <StyledGlobal />
     </>
   </Provider>

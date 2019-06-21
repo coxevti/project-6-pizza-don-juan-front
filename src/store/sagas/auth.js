@@ -33,3 +33,14 @@ export function* login({ email, password }) {
     );
   }
 }
+
+export function* logout() {
+  localStorage.removeItem('@pizzariaDonJuan:token');
+  localStorage.removeItem('@pizzariaDonJuan:user');
+  yield put(toastrActions.add({
+    type: 'success',
+    title: 'Logout com sucesso',
+    message: 'Não demore para voltar :(',
+  }));
+  yield put(push('/login'));
+}
