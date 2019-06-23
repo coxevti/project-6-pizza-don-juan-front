@@ -25,6 +25,7 @@ export const OrderList = styled.article`
       font-size: 18px;
       font-weight: normal;
       color: #0b2031;
+      text-transform: capitalize;
     }
     > h2 {
       font-size: 11px;

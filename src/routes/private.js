@@ -17,7 +17,7 @@ const Private = ({ component: Component, ...rest }) => (
 );
 
 Private.propTypes = {
-  component: PropTypes.shape().isRequired,
+  component: PropTypes.func.isRequired,
 };
 
 export default Private;
